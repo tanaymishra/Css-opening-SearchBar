@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    }
+    
+    body{
+        height:100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(80.15deg, rgba(8, 133, 93, 0.767) -13.45%, #7c8509 78.37%);
+    
+    }
+    .container{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-group input{
+        border: none;
+        outline: none;
+        height:6vh;
+        background: white;
+        border-radius: 20px;
+        text-align: center;
+        width: 0%;
+        transition: .5s ease all;
+    }
+    .btn-group{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:20px;
+    
+    }
+    .btn-group button{
+        height: 6vh;
+        width: 4em;
+        border-radius: 20px 20px 20px 20px;
+        outline: none;
+        background: rgb(60 ,81, 108);
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        transition: .5s ease all;
+        cursor: pointer;
+        
+    }
+    .icon .circle{
+        width:1em;
+        height: 1em;
+        border: white 2px solid;
+        border-radius: 30px;
+        position: relative;
+        
+    }
+    .icon .line{
+        width:0.3em;
+        height:0.7em;
+        position: absolute;
+        background: white;
+        top: 6px;
+        transform: rotate(-35deg)  translate(6px,6px);
+        border-radius: 22px;
+    }
+    
+
+.active-in{
+    width: 80% !important;
+    border-radius:20px 0px 0px 20px !important;
+}
+.active-btn{
+    border-radius: 0px 20px 20px 0px !important;
+}
